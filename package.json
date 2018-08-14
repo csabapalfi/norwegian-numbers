@@ -1,0 +1,9 @@
+{
+    "name": "norwegian-numbers",
+    "scripts": {
+        "test": "node --icu-data-dir=./node_modules/full-icu test.js"
+    },
+    "dependencies": {
+        "full-icu": "^1.2.1"
+    }
+}
