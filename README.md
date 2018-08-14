@@ -8,3 +8,11 @@ The new language code(s) are `nb` (Bokmål) and `nn` (Nynorsk) as per Norway's o
 
 Node.js uses icu4c data but even with `full-icu` it seems to ignore the icu4c alias for number formatting. (Maybe all aliases are ignored?).
 
+```js
+// npm install full-icu
+// node --icu-data-dir=./node_modules/full-icu
+const number = 1234.123
+number.toLocaleString('nb-NO') // '1 234,123' <-- correct
+number.toLocaleString('no-NO') // '1,234.123'
+```
+
