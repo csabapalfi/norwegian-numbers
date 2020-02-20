@@ -1,4 +1,6 @@
-# Norwegian number formatting
+# Norwegian number formatting issue in node.js
+
+[![Build Status](https://travis-ci.org/csabapalfi/norwegian-numbers.svg?branch=master)](https://travis-ci.org/csabapalfi/norwegian-numbers)
 
 Norway used to use the `no` (Norwegian) language code that's considered legacy now. [ISO_639-1]( https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) considered it macrolanguage.
 
